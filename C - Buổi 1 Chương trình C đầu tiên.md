@@ -95,13 +95,13 @@ Kiến thức buổi 1:
 | Void             | void               |            |              | Không có giá trị                                         |
 | Boolean          | bool               |            | 1 byte       | 0 hoặc 1. Trong đó 0 là FALSE, 1 là TRUE                 |
 | Ký tự            | char               | %c         | 1 byte       | -127 tới 127 hoặc 0 tới 255                              |
-| Số nguyên        | int                | %d         | 4 byte       | -231 tới 231 – 1 (-109 tới 109)                          |
-|                  | unsigned int       | %u         | 4 byte       | 0 tới 232 – 5 (0 tới 109)                                |
-|                  | long long          | %lld       | 8 byte       | -263 tới 263 – 1 (-1018 tới 1018)                        |
-|                  | unsigned long long | %llu       | 8 byte       | 0 tới 264 – 5 (0 tới 1019)                               |
-| Số thực          | float              | %f         | 4 byte       | ±10-38 tới ±1038 (Độ chính xác: 6 chữ số thập phân)      |
-|                  | double             | %lf        | 8 byte       | ±10-308 tới ±10308 (Độ chính xác: 15 chữ số thập phân)   |
-|                  | long double        | %Lf        | 10 byte      | ±10-4932 tới ±104932 (Độ chính xác: 19 chữ số thập phân) |
+| Số nguyên        | int                | %d         | 4 byte       | -2^31 tới 2^31 – 1 (-10^9 tới 10^9)                          |
+|                  | unsigned int       | %u         | 4 byte       | 0 tới 2^32 – 5 (0 tới 10^9)                                |
+|                  | long long          | %lld       | 8 byte       | -2^63 tới 2^63 – 1 (-10^18 tới 10^18)                        |
+|                  | unsigned long long | %llu       | 8 byte       | 0 tới 2^64 – 5 (0 tới 10^19)                               |
+| Số thực          | float              | %f         | 4 byte       | ±10^-38 tới ±10^38 (Độ chính xác: 6 chữ số thập phân)      |
+|                  | double             | %lf        | 8 byte       | ±10^-308 tới ±10^308 (Độ chính xác: 15 chữ số thập phân)   |
+|                  | long double        | %Lf        | 10 byte      | ±10^-4932 tới ±10^4932 (Độ chính xác: 19 chữ số thập phân) |
 
 -   Chú thích: unsigned là không dấu.
 
