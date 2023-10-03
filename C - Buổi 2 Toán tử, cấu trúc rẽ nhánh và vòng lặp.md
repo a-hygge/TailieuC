@@ -1,6 +1,14 @@
 **C - Buổi 2: Toán tử, cấu trúc rẽ nhánh và vòng lặp**
 
-Kiến thức buổi 2:
+**Nhắc lại kiến thức buổi 1:**
+
+      Hàm nhập: scanf()
+      
+      Hàm xuất: printf()
+      
+      Các hàm trong thư viện math.h: pow(), sqrt(), abs(), sin(), cos(), log(),....
+
+**Kiến thức buổi 2:**
 
 [I. Tiếp tục về toán tử](#tiếp-tục-về-toán-tử)
 
